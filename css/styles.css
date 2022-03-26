@@ -54,6 +54,10 @@ nav a:hover {
 .pc-info {
   font-size: 1.6rem;
   color: #fff;
+  text-align: center;
+  background-color: #990600;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 .pc-price {
   font-size: 2rem;
@@ -83,4 +87,32 @@ nav a:hover {
     width: 40%;
     margin: 0 auto;
   }
+}
+/* OUR PRODUCTS */
+.products {
+  width: 95%;
+  margin: 0 auto;
+}
+.procesor-image {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.graphic-image {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.storage-image {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.procesor-text,
+.graphic-text,
+.storage-text {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
 }
