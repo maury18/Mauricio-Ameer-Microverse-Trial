@@ -1,0 +1,43 @@
+body {
+  background-color: #928c93;
+}
+.logo-name {
+  color: #990600;
+  font-size: 3rem;
+  font-family: monospace;
+  text-align: center;
+  margin: 0;
+}
+.logo-image {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+nav a {
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #990600;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #990600;
+}
+@media (min-width: 800px) {
+  header {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav a {
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+  }
+}
